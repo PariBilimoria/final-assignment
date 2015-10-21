@@ -1,0 +1,18 @@
+{
+  "name": "pari-final-project",
+  "root": "html",
+  "clean_urls": true,
+  "error_page": "error.html",
+  "forms": {
+    "contact": {
+      "to": "parinazbilimoria@gmail.com",
+      "from": "contact@your-company.com",
+      "replyTo": "{{fullname}} <{{email}}>",
+      "subject": "Message from reader {{name}}",
+      "html": "<b>Name:</b> {{fullname}}<br>Message: {{message}}",
+      "text": "Name: {{name}}",
+      "success": "/contact-received",
+      "failure": "/contact-failure"
+    }
+  }
+}
